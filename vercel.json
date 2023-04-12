@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "spring23-nodebb-team-a1-fork",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
